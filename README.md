@@ -26,7 +26,7 @@ For more information on running a local server see [https://developer.mozilla.or
 ### Install Dependencies
 
 ```bash
-yarn
+npm install 
 ```
 
 ### Configure Environment
@@ -36,7 +36,7 @@ Rename `.env.local.example` to `.env.local` and fill in the appropriate variable
 ### Run
 
 ```bash
-yarn start
+npm run start
 ```
 
 To run on a testnet, make a copy of `.env.local.example` named `.env.local`, change `REACT_APP_NETWORK_ID` to `"{yourNetworkId}"`, and change `REACT_APP_NETWORK_URL` to e.g. `"https://{yourNetwork}.infura.io/v3/{yourKey}"`.
